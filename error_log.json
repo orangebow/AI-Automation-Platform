@@ -1,0 +1,137 @@
+﻿Starting verification...
+node : {
+At line:1 char:1
++ node 
+--env-file=.env verif
+y_gemini_json.mjs 
+2>&1 | Out-File 
+-Encoding ...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: ({:Strin   
+ g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+  "error": "API Call 
+Failed",
+  "message": "Failed 
+after 3 attempts. 
+Last error: You 
+exceeded your 
+current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. \n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_re
+quests, limit: 0, 
+model: 
+gemini-2.0-flash\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: 
+gemini-2.0-flash\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_input_token_cou
+nt, limit: 0, model: 
+gemini-2.0-flash\nPle
+ase retry in 
+9.183033115s.",
+  "stack": 
+"AI_RetryError: 
+Failed after 3 
+attempts. Last 
+error: You exceeded 
+your current quota, 
+please check your 
+plan and billing 
+details. For more 
+information on this 
+error, head to: https
+://ai.google.dev/gemi
+ni-api/docs/rate-limi
+ts. To monitor your 
+current usage, head 
+to: https://ai.dev/ra
+te-limit. \n* Quota 
+exceeded for metric: 
+generativelanguage.go
+ogleapis.com/generate
+_content_free_tier_re
+quests, limit: 0, 
+model: 
+gemini-2.0-flash\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_requests, 
+limit: 0, model: 
+gemini-2.0-flash\n* 
+Quota exceeded for 
+metric: generativelan
+guage.googleapis.com/
+generate_content_free
+_tier_input_token_cou
+nt, limit: 0, model: 
+gemini-2.0-flash\nPle
+ase retry in 
+9.183033115s.\n    
+at _retryWithExponent
+ialBackoff (file:///C
+:/Users/DELL/Desktop/
+placements/workflow/n
+odebase/node_modules/
+ai/dist/index.mjs:172
+7:13)\n    at process
+.processTicksAndRejec
+tions (node:internal/
+process/task_queues:1
+03:5)\n    at async 
+fn (file:///C:/Users/
+DELL/Desktop/placemen
+ts/workflow/nodebase/
+node_modules/ai/dist/
+index.mjs:2248:34)\n 
+   at async file:///C
+:/Users/DELL/Desktop/
+placements/workflow/n
+odebase/node_modules/
+ai/dist/index.mjs:156
+4:22\n    at async 
+generateText (file://
+/C:/Users/DELL/Deskto
+p/placements/workflow
+/nodebase/node_module
+s/ai/dist/index.mjs:2
+193:12)\n    at 
+async main (file:///C
+:/Users/DELL/Desktop/
+placements/workflow/n
+odebase/verify_gemini
+_json.mjs:17:24)",
+  "name": 
+"AI_RetryError"
+}
