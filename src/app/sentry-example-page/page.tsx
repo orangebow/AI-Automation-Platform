@@ -10,7 +10,7 @@ class SentryExampleFrontendError extends Error {
     this.name = "SentryExampleFrontendError";
   }
 }
-
+console.log("checking the monitoring connection...");
 export default function Page() {
   const [hasSentError, setHasSentError] = useState(false);
   const [isConnected, setIsConnected] = useState(true);
